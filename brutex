@@ -2,16 +2,19 @@
 # BruteX v1.5 by 1N3
 # http://crowdshield.com
 #
-# ABOUT:
-# BruteX is a simple bash script used to brute force all services on a target.
+# Hakkında:
+# BruteX hedef üzerindeki bütün servislere kaba kuvvet uygulayan shell betiğidir.
 #
-# INSTALL:
+# Kurmak İçin:
+#normal kullanıcı için sudo kullanın
+#chmod +x ./install.sh     çalıştrma izni veriniz.
 # ./install.sh
 #
-# USAGE:
+# Kullanımı
 # brutex <IP/hostname> <port>
+#brutex 10.0.2.30 21   //örnek
 #
-# HYDRA SERVICES: 
+# HYDRA Servisleri :
 # asterisk cisco cisco-enable cvs ftp ftps http[s]-{head|get} http[s]-{get|post}-form http-proxy http-proxy-urlenum icq imap[s] irc ldap2[s] ldap3[-{cram|digest}md5][s] mssql mysql(v4) nntp oracle-listener oracle-sid pcanywhere pcnfs pop3[s] postgres rdp redis rexec rlogin rsh rtsp s7-300 sip smb smtp[s] smtp-enum snmp socks5 ssh sshkey teamspeak telnet[s] vmauthd vnc xmpp
 
 
@@ -48,6 +51,7 @@ if [ -z $TARGET ]; then
 	echo -e "$COLOR1 + -- --=[BruteX v1.5 by 1N3$RESET"
 	echo -e "$COLOR1 + -- --=[http://crowdshield.com$RESET"
 	echo -e "$COLOR1 + -- --=[Usage: brutex <target> <port>"
+	echo -e "$COLOR1 + -- --=[Kullanımı brutex 10.0.2.30 22$RESET"
 	echo -e "$RESET"
 	exit
 fi
