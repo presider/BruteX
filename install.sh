@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install script for BruteX
+# BruteX aracının Kurulumu
 #
 # VARS
 COLOR1='\033[91m'
@@ -16,11 +16,12 @@ echo -e "$COLOR1         \/                         \/      \_/$RESET"
 echo ""
 echo -e "$COLOR1 + -- --=[BruteX v1.5 by 1N3$RESET"
 echo -e "$COLOR1 + -- --=[http://crowdshield.com$RESET"
+echo -e "$COLOR1 + -- --=[Çeviren Tababa86 $RESET"
 echo -e "$RESET"
 
 BRUTEX_INSTALL_DIR=/usr/share/brutex
 
-echo -e "$OKGREEN + -- --=[This script will install brutex under $BRUTEX_INSTALL_DIR."
+echo -e "$OKGREEN + -- --=[[Bu betik brutex' şuraya kuracak $BRUTEX_INSTALL_DIR."
 mkdir -p $BRUTEX_INSTALL_DIR 2> /dev/null
 cp -Rf $PWD/* $BRUTEX_INSTALL_DIR 
 cd $BRUTEX_INSTALL_DIR
