@@ -1,19 +1,19 @@
 # BruteX by 1N3@CrowdShield
 https://crowdshield.com 
 
-##Automatically brute force all services running on a target
+##Otomatik olarak hedef üzerindeki tüm servislere kaba kuvvet uygular.Wordlist iyi oluşturulmalıdır.
 
-* Open ports
-* DNS domains
-* Usernames
-* Passwords
+* Açık portlar
+* Dns Domainler
+* Kullanıcı adları
+* şifreler
 
-##INSTALL:
+##Kurmak için:
 ```
 ./install.sh
 ```
 
-##USAGE:
+##Kullanımı :
 ```
 brutex target <port>
 ```
